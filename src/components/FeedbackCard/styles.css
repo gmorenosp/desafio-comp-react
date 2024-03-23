@@ -1,0 +1,11 @@
+.ct-feedback-card-container {
+    background-color: var(--ct-color-bg-primary);
+    border: 1px solid var(--ct-color-border-primary);
+    border-radius: 12px;
+    width: 100%;
+    padding: 25px 20px;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
