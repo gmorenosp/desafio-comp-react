@@ -1,0 +1,28 @@
+.ct-footer {
+    background-color: var(--ct-color-bg-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    padding: 20px;
+}
+
+.ct-footer-container {
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.ct-footer p {
+    color: var(--ct-color-text-primary);
+}
+
+@media (min-width: 576px) {
+    .ct-footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

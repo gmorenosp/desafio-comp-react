@@ -1,0 +1,31 @@
+#ct-title-section,
+#ct-feedback-title-section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ct-title-section h2,
+#ct-feedback-title-section h2 {
+    font-size: 20px;
+    color: var(--ct-color-text-secondary);
+}
+
+#ct-feedback-title-section {
+    background-color: var(--ct-color-bg-quaternary);
+    margin-top: 25px;
+}
+
+#ct-feedback-section {
+    background-color: var(--ct-color-bg-quaternary);
+}
+
+@media (min-width: 576px) {
+
+    #ct-title-section h2,
+    #ct-feedback-title-section h2 {
+        font-size: 32px;
+    }
+}

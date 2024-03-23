@@ -1,0 +1,18 @@
+.ct-header {
+    background-color: var(--ct-color-bg-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.ct-header-title {
+    color: var(--ct-color-text-primary);
+    font-size: 20px;
+}
+
+@media (min-width: 576px) {
+    .ct-header-title {
+        font-size: 24px;
+    }
+}
