@@ -1,7 +1,7 @@
 import CatalogCards from "../../components/CatalogCards";
 import FeedbackCards from "../../components/FeedbackCards";
 import Footer from "../../components/Footer";
-import Header from "../../components/Header";
+import Header from "../../components/Hearder";
 import "./styles.css";
 
 export default function Catalog() {
